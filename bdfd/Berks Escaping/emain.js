@@ -1,7 +1,7 @@
 function output(id) {
     const code = document.getElementById(id).value;
-    const final = code.replaceAll('$','%{DOL}%').replaceAll(']','\\]').replaceAll(';','\\;');
-    const unescaped = code.replaceAll('%{DOL}%','$').replaceAll('\\]',']').replaceAll('\\;',';');
+    const final = code.replaceAll('$','%{DOL}%').replaceAll(']','\\]').replaceAll(';','\\;').replaceAll('\\','\\\\');
+    const unescaped = code.replaceAll('%{DOL}%','$').replaceAll('\\]',']').replaceAll('\\;',';').replaceAll('\\\\','\\');
       document.getElementById("output").value = final;
       document.getElementById("unescaped").value = unescaped;
       document.getElementById("looped").value = 

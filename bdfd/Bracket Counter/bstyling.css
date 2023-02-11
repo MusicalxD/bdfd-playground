@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    background-color: black;
+    color: gold;    
+}
+
+.styling{
+    border-color: black;
+    background-color: gray;
+    color: black;
+}
+
+::placeholder{
+    color: black;
+}

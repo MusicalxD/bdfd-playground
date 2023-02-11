@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    background-color: black;
+    color: gold;    
+}
+
+.textcode{
+    font-size: 20pt;
+}
+
+.fullarea{
+    border-color: black;
+    background-color: gray;
+    color: black;
+}
+
+::placeholder{
+    color: black;
+}
+
+.footer{
+    color: brown;
+}

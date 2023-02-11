@@ -18,3 +18,8 @@ body {
 .footer{
   color: greenyellow;
 }
+
+.img{
+    width: 25%;
+    height: 25%;
+}

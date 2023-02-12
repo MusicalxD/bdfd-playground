@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    background-color: black;
+    color: gold;    
+}
+
+.textcode{
+    font-size: 20pt;
+}
+
+.styling{
+    border-color: black;
+    background-color: gray;
+    color: black;
+}
+
+::placeholder{
+    color: black;
+}
+
+.footer{
+    color: brown;
+}
+
+.textmain{
+    font-size: 25pt;
+}

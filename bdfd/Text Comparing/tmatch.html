@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>Text Comparing</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+		<meta name="description" content="The home page from Text Comparing"/>
+		<meta name="author" content="Musical">
+		<meta name="keywords" content="bdfd">
+		<meta property="og:site_name" content="bdfd" />
+		<meta property="og:title" content="Text Comparing" />
+		<meta property="og:type" content="website" />
+		<meta property="og:description" content="The home page from Text Comparing" />
+		<meta property="og:image" content="./bdfd.jpg" />
+		<meta property="og:image:width" content="500" />
+		<meta property="og:image:height" content="500" />
+		<meta property="og:image:type" content="./bdfd.jpg" />
+		<meta property="og:image:alt" content="	BDFD logo" />
+		<meta name="theme-color" content="#ffffff">
+    		<meta name="msapplication-TileColor" content="#ffffff">
+    		<meta content="#ffffff" data-react-helmet="true">
+		<link rel="icon" href="./bdfd.jpg">
+		<link href="https://fonts.googleapis.com/css?family=Assistant:700,700italic,200,200italic" rel="stylesheet" type="text/css" />
+    		<link rel="stylesheet" href="./tstyling.css" media="screen">
+	</head>
+	<body>
+	  <button onclick="window.history.back()">Main Page</button> 
+      <br><br><br>
+      <a class="textmain">Text Comparing</a> <br><br><br>
+
+    <form>
+      <textarea placeholder="type the text here..." id="inputText1" rows="10" cols="40" class="styling"></textarea>
+      <br>
+
+      <textarea placeholder="type the text here..." id="inputText2" rows="10" cols="40" class="styling"></textarea>
+      <br>
+
+      <input type="button" value="Compare" onclick="textComparing()"><br><br>
+    </form>
+      <p id="result"></p>
+
+    <script src="./tmain.js"></script>
+	</body>
+</html>
